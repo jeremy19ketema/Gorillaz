@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gorillaz FanPage </title>
+</head>
+<body>
+    <header>
+        <h1 align="center">Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="HomePage.html">Home</a></li>
+                <li><a href="AboutPage.html">About</a></li>
+                <li><a href="MusicPage.html">Music</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <h2>Get in Touch with Gorillaz</h2>
+    <p>Send us your message, fan art, or music suggestions!</p>
+    
+    <form action="#" method="post">
+        <div>
+            <label for="name">Your Name: *</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter Your Name" required><br><br>
+        </div>
+        
+        <div>
+            <label for="email">Email: *</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter Your Email" required><br><br>
+        </div>
+        
+        <div>
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone" placeholder="Enter Your Phone Number"><br><br>
+        </div>
+        
+        <div>
+            <label for="country">Country:</label><br>
+            <select id="country" name="country">
+                <option value="">Select Your Country</option>
+                <option value="usa">United States</option>
+                <option value="uk">United Kingdom</option>
+                <option value="ethiopia">Ethiopia</option>
+                <option value="other">Other</option>
+            </select><br><br>
+        </div>
+        
+        <div>
+            <label>Message Type: *</label><br>
+            <input type="radio" id="fan_mail" name="message_type" value="fan_mail" required>
+            <label for="fan_mail">Fan Mail</label><br>
+            
+            <input type="radio" id="music_suggestion" name="message_type" value="music_suggestion">
+            <label for="music_suggestion">Music Suggestion</label><br>
+            
+            <input type="radio" id="collaboration" name="message_type" value="collaboration">
+            <label for="collaboration">Collaboration Request</label><br>
+            
+            <input type="radio" id="other_type" name="message_type" value="other">
+            <label for="other_type">Other</label><br><br>
+        </div>
+        
+        <div>
+            <label>Are you a fan of: (Select all that apply)</label><br>
+            <input type="checkbox" id="fan_2d" name="favorite_member" value="2d">
+            <label for="fan_2d">2D</label><br>
+            
+            <input type="checkbox" id="fan_murdoc" name="favorite_member" value="murdoc">
+            <label for="fan_murdoc">Murdoc Niccals</label><br>
+            
+            <input type="checkbox" id="fan_noodle" name="favorite_member" value="noodle">
+            <label for="fan_noodle">Noodle</label><br>
+            
+            <input type="checkbox" id="fan_russel" name="favorite_member" value="russel">
+            <label for="fan_russel">Russel Hobbs</label><br><br>
+        </div>
+        
+        <div>
+            <label for="subject">Subject: *</label><br>
+            <input type="text" id="subject" name="subject" placeholder="Message Subject" required><br><br>
+        </div>
+        
+        <div>
+            <label for="message">Your Message: *</label><br>
+            <textarea id="message" name="message" rows="6" cols="50" placeholder="Type your message here..." required></textarea><br><br>
+        </div>
+        
+        <input type="submit" value="Send Message">
+    </form>
+    <hr> 
+    <footer>
+        <details>
+            <summary>Follow Gorillaz on Social Media</summary>
+            <nav>
+                <ul>
+                    <li><a href="https://www.youtube.com/gorillaz">YouTube</a></li>
+                    <li><a href="https://www.instagram.com/gorillaz">Instagram</a></li>
+                    <li><a href="https://twitter.com/gorillaz">Twitter/X</a></li>
+                    <li><a href="https://www.facebook.com/gorillaz">Facebook</a></li>
+                    <li><a href="https://www.tiktok.com/@gorillaz">TikTok</a></li>
+                    <li><a href="https://open.spotify.com/artist/3AA28KZvwAUcZuOKwyblJQ">Spotify</a></li>
+                </ul>
+            </nav>
+        </details>
+        <p>&copy; 2025 Gorillaz Fan Page. This is a fan-made website for educational purposes.</p>
+        <p>Disclaimer: This is not the official Gorillaz website. For official communications, visit <a href="https://www.gorillaz.com">gorillaz.com</a></p>
+    </footer>
+</body>
+</html>
