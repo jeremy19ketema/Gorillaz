@@ -60,3 +60,14 @@ textarea {
     border: 1px solid #aaa;
     border-radius: 4px;
 }
+input[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+input[type="submit"]:hover {
+    background-color: black;
+}
