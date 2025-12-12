@@ -7,7 +7,7 @@ body {
     padding: 0;
 }
 header {
-    background-color: #333;
+    background-color: #ff6900;
     color: white;
     text-align: center;
     padding-bottom: 10px;
@@ -45,4 +45,18 @@ h2 {
 p {
     color: #444;
     line-height: 1.5;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+}
+table caption {
+    padding: 10px;
+    font-size: 18px;
+}
+th, td {
+    border: 1px solid #999;
+    padding: 10px;
+    text-align: left;
 }
