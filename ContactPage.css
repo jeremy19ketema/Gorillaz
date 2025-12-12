@@ -43,3 +43,9 @@ form {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+form div {
+    margin-bottom: 15px;
+}
+label {
+    font-weight: bold;
+}
