@@ -89,4 +89,7 @@ footer nav ul li a {
 footer nav ul li a:hover {
     color: orange;
 }
+footer p {
+    color: #ccc;
+}
 
