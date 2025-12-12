@@ -60,3 +60,17 @@ th, td {
     padding: 10px;
     text-align: left;
 }
+th {
+    background-color: #333;
+    color: white;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+footer nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
