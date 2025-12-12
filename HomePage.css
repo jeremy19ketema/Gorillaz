@@ -21,3 +21,28 @@ nav ul li {
     display: inline;
     margin-right: 15px;
 }
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color: orange;
+}
+header img {
+    margin-top: 10px;
+    border-radius: 5px;
+}
+section {
+    width: 85%;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+h2 {
+    color: #333;
+}
+p {
+    color: #444;
+    line-height: 1.5;
+}
