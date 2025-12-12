@@ -64,3 +64,13 @@ footer nav ul li {
     display: inline;
     margin-right: 10px;
 }
+footer nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+footer nav ul li a:hover {
+    color: orange;
+}
+footer p {
+    color: #ccc;
+}
