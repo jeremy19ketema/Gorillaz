@@ -26,3 +26,18 @@ nav ul li a {
 nav ul li a:hover {
     color: orange;
 }
+section {
+    width: 85%;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+h2 {
+    color: #333;
+}
+article {
+    margin-bottom: 40px;
+    text-align: center;
+    padding: 10px;
+}
