@@ -19,5 +19,17 @@ var facts = [
     factElement.style.fontStyle = "italic";
     factElement.style.color = "#777";
     factElement.style.margin = "30px"; 
+var about = document.querySelector("section h2");
+    if (about) {
+        about.parentElement.appendChild(factElement);
+    }
+
+    function showRandomFact() {
+        var randomNumber = Math.floor(Math.random() * facts.length);
+        factElement.innerText = facts[randomNumber];
+    }
+
+    showRandomFact();
+    setInterval(showRandomFact, 10000);
    }
 }
