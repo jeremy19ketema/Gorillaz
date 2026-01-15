@@ -17,7 +17,7 @@ var facts = [
     var factElement = document.createElement("p");
     factElement.style.textAlign = "center";
     factElement.style.fontStyle = "italic";
-    factElement.style.color = "#777";
+    factElement.style.color = "#000";
     factElement.style.margin = "30px"; 
 var about = document.querySelector("section h2");
     if (about) {
