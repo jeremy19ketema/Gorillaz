@@ -2,8 +2,8 @@ window.onload = function() {
 var heroImage = document.querySelector("header img");
     if (heroImage) {
         heroImage.style.opacity = "0";
+        heroImage.style.transition = "opacity 2s";
         setTimeout(function() {
-            heroImage.style.transition = "opacity 2s";
             heroImage.style.opacity = "1";
         }, 300);
 
@@ -32,4 +32,11 @@ var about = document.querySelector("section h2");
     showRandomFact();
     setInterval(showRandomFact, 10000);
    }
-}
+document.addEventListener("DOMContentLoaded", function() {
+    document.body.style.opacity = "0";
+    document.body.style.transition = "opacity 0.8s ease";
+    setTimeout(function() {
+        document.body.style.opacity = "1";
+    }, 100);
+
+ 
